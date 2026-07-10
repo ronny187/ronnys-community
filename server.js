@@ -62,7 +62,7 @@ app.get("/callback", async (req, res) => {
             "https://discord.com/api/users/@me",
             {
                 headers: {
-                    Authorization: `Bearer ${tokenResponse.data.access_token}`
+                   Authorization: `Bearer ${tokenResponse.data.access_token}`
                 }
             }
         );
